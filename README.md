@@ -1,5 +1,7 @@
 # jkson_fcc_mod
 
+[Текст ссылки](адрес://ссылки.здесь "Заголовок ссылки")
+
 For forcing Mavic Pro SDR settings as FCC,Boost,force_2.3G or force_2.5G, we can use internal commands.
 These commands will set radio parameters with any smartphones OS, any programms, and even without smartphone at all.
 
