@@ -7,7 +7,9 @@
 
 ## Как установить мод
 
-1) [Скачать данный репозиторий](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip). Распаковать его на диск C:.
+1) [Скачать данный репозиторий](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip). Распаковать его как папку master на диск C:.
+2) Запустить командную строку через меню пуск, либо Win+R и в появившемся окошке ввести cmd и нажать Enter.
+3) 
 
 Необходимо получить adb доступ, любым удобным для Вас способом, например с помощью [DUMLDore](https://github.com/jezzab/DUMLdore/releases). Небходимо скачать данную программу, подключить Mavic PRO к компьютеру, включить его и нажать "ADB ENABLE".
 
