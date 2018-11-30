@@ -37,7 +37,7 @@ adb shell chmod 755 /vendor/bin/check_1860_state.sh
 
 ## How to check FCC mode
 
-You sould start DJI GO, go to HD settings, and look to frequency graph. If line ~1km is a bit under 90dBm, you are in CE mode. If line is higher than 90dBm, you are in FCC mode. Boost mode(1.5W) you can proof only with special radio analyzer, or with the test flight. Please ensure you have enough battery for back flight.
+You should start DJI GO, go to HD settings, and look to frequency graph. If line ~1km is a bit under 90dBm, you are in CE mode. If line is higher than 90dBm, you are in FCC mode. Boost mode(1.5W) you can proof only with special radio analyzer, or with the test flight. Please ensure you have enough battery for back flight.
 
 ## How to say thanks
 
