@@ -13,7 +13,7 @@
 
 3) Подключить Mavic PRO к компьютеру USB кабелем. Включить его.
 
-4) Скачать и запустить [DUMLDore](https://github.com/jezzab/DUMLdore/releases). Нажать "ADB ENABLE".
+4) Скачать и запустить [DUMLDore](https://github.com/jezzab/DUMLdore/releases/download/v3.15/DUMLdoreV3.zip). Нажать "ADB ENABLE".
 
 5) Проверить в менеджере устройств Windows, нет ли неопознанных устройств DJI. Если есть, распаковать ADBDriver и указать путь к этой папке при установке драйвера для этого неопознанного устройства.
 
