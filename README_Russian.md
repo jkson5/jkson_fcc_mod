@@ -15,7 +15,7 @@
 
 4) Скачать и запустить [DUMLDore](https://github.com/jezzab/DUMLdore/releases). Нажать "ADB ENABLE".
 
-5) Проверить в менеджере устройств Windows, нет ли неопознанных устройств DJI. Если есть, распаковать ADBDriver и установить драйвер для этого неопознанного устройства.
+5) Проверить в менеджере устройств Windows, нет ли неопознанных устройств DJI. Если есть, распаковать ADBDriver и указать путь к этой папке при установке драйвера для этого неопознанного устройства.
 
 5) Запустить командную строку сочетанием клавиш Win+R и вводом cmd, либо из меню пуск.
 
@@ -27,7 +27,11 @@ adb shell busybox mount -o remount,rw /vendor
 
 adb shell mkdir /vendor/bin
 
+adb shell chmod 755 /vendor/bin
+
 adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
+
+adb shell chmod 755 /vendor/bin/check_1860_state.sh
 
 7) Выключить Mavic
 
@@ -35,12 +39,12 @@ adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
 
 Необходимо в DJI GO, зайти в настройки HD, отобразить график радиосигнала. Если линия ~1км находится чуть ниже отметки 90dBm, то это CE режим. Если же выше, то это FCC режим. Режим boost(1.5W) можно проверить только прибором, либо тестовым полетом. Будьте осторожны, планируйте своевременный возврат при дальних полетах.
 
+## Как удалить мод
 
+Выполнить пункты 1-5, затем в командной строке выполнить по очереди данные команды:
 
-FCC:              dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00024800FFFF0200000000
+cd desktop/master
 
-Boost:            dji_mb_ctrl -S test -R local -g 9 -s 9 -c 3c
+adb shell busybox mount -o remount,rw /vendor
 
-Force to 2.3G:    dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00014600FFFFA2030000
-
-Force to 2.5G:    dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00014600FFFF92040000
+adb shell rm /vendor/bin/check_1860_state.sh
