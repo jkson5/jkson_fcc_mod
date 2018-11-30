@@ -17,7 +17,7 @@ These commands will set radio parameters with any smartphones OS, any programms 
 
 5) Please check in Windows device manager, is there any unrecognized DJI devices. If yes, unpack ADBDriver.zip and try to update driver for this device with path to ADBDriver directory.
 
-6) Please run commandline with Win+R and cmd, or from Start menue.
+6) Please run commandline with Win+R and cmd, or from Windows start menu.
 
 7) In commandline please do these commands, one by one:
 
