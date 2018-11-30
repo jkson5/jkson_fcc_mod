@@ -23,9 +23,9 @@
 
 cd desktop/master
 
-adb busybox mount -o remount,rw /vendor
+adb shell busybox mount -o remount,rw /vendor
 
-adb mkdir /vendor/bin
+adb shell mkdir /vendor/bin
 
 adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
 
