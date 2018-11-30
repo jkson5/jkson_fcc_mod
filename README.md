@@ -55,11 +55,11 @@ adb shell rm /vendor/bin/check_1860_state.sh
 
 ## DeejayeyeHackingClub information repos aka "The OG's" (Original Gangsters)
 
+Special thanks to @jcase, @jan2642, @mefisto
+
 [http://dji.retroroms.info](http://dji.retroroms.info) - "Wiki"
 
 https://github.com/fvantienen/dji_rev - This repository contains tools for reverse engineering DJI product firmware images.
-
-https://github.com/Bin4ry/deejayeye-modder - APK "tweaks" for settings & "mods" for additional / altered functionality
 
 https://github.com/hdnes/pyduml - Assistant-less firmware pushes and DUMLHacks referred to as DUMBHerring when used with "fireworks.tar" from RedHerring. DJI silently changes Assistant? great... we will just stop using it.
 
