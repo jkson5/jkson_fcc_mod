@@ -21,10 +21,13 @@
 
 6) В командной строке выполнить по очереди данные команды:
 
-  *cd desktop/master
-  *adb busybox mount -o remount,rw /vendor
-  *adb mkdir /vendor/bin
-  *adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
+cd desktop/master
+
+adb busybox mount -o remount,rw /vendor
+
+adb mkdir /vendor/bin
+
+adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
 
 Выбрать файл с расширением .sh из данного репозитория с необходимым Вам усилением. Скачать его на рабочий стол, и переименовать в 
 
