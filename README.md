@@ -33,7 +33,7 @@ adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
 
 adb shell chmod 755 /vendor/bin/check_1860_state.sh
 
-8) Switch off Mavic
+8) Switch Mavic off
 
 ## How to check FCC mode
 
