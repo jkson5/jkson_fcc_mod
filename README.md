@@ -9,7 +9,7 @@ These commands will set radio parameters with any smartphone OS, any programms (
 
 ## How to install
 
-1) [Please download this repo](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip) and unzip it to your desktop. Rename unzipped folder to master, by removing extra characters.
+1) [Please download this repo](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip) and unzip it to your desktop. Rename unzipped folder to "master", by removing extra characters.
 
 2) In folder "master" on your desktop, please take file with .sh extension with parameters you need (file name contains parameters), and rename it to check_1860_state.sh by removing extra characters.
 
