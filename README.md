@@ -15,7 +15,7 @@ These commands will set radio parameters with any smartphones OS, any programms 
 
 4) Download and run [DUMLDore](https://github.com/jezzab/DUMLdore/releases/download/v3.15/DUMLdoreV3.zip). Press "ADB ENABLE".
 
-5) Please check in Windows device manager, is there any unrecognized DJI devices. If yes, unpack ADBDriver.zip and try to update driver for this device with path to ADBDriver directory.
+5) Please check in Windows device manager, is there any unrecognized DJI devices. If yes, unpack ADBDriver.zip and try to force update driver for this device this way - Update driver software>Browse my computer>Let me pick from a list>show all>next>Have Disk>browse and select android_winusb.inf in unpacked ADBDriver folder. 
 
 6) Please run commandline with Win+R and cmd, or from Windows start menu.
 
