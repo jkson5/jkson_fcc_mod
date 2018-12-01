@@ -5,6 +5,8 @@
 For forcing Mavic Pro SDR settings such as FCC,Boost,force_2.3G or force_2.5G, we can use internal commands.
 These commands will set radio parameters with any smartphone OS, any programms (e.g. Litchi), and even without smartphone at all. Because it will run on the drone locally. You have to apply this mod only for the drone. RC will sync.
 
+This mod NOT compatible with Mavic 2! Only Mavic PRO/Platinum confirmed.
+
 ## How to install
 
 1) [Please download this repo](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip) and unzip it to your desktop. Rename unzipped folder to master, by removing extra characters.
