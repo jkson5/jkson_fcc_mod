@@ -5,6 +5,8 @@
 For forcing Mavic Pro SDR settings such as FCC,Boost,force_2.3G or force_2.5G, we can use internal commands.
 These commands will set radio parameters with any smartphone OS, any programms (e.g. Litchi), and even without smartphone at all. Because it will run on the drone locally. You have to apply this mod only for the drone. RC will sync.
 
+If you want to use force23 or force25, you always must switch RC first. Otherwise frequency will not shift.
+
 **This mod NOT compatible with Mavic 2! Only Mavic PRO/Platinum 1.04.0300 and lower confirmed.**
 
 ## How to install
