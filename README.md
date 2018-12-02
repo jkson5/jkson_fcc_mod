@@ -17,15 +17,19 @@ If you use force23 or force25 settings, you must *switch RC on before the drone*
 
 3) Connect your Mavic PRO with USB cable. Switch it on.
 
-4) Download and run [DUMLDore](https://github.com/jezzab/DUMLdore/releases/download/v3.15/DUMLdoreV3.zip). Press "ADB ENABLE".
+4) Please check in Windows device manager, is there any unrecognized DJI devices. If yes, unpack ADBDriver.zip and try to force update driver for this device this way - Update driver software>Browse my computer>Let me pick from a list>show all>next>Have Disk>browse and select android_winusb.inf in unpacked ADBDriver folder. 
 
-5) Please check in Windows device manager, is there any unrecognized DJI devices. If yes, unpack ADBDriver.zip and try to force update driver for this device this way - Update driver software>Browse my computer>Let me pick from a list>show all>next>Have Disk>browse and select android_winusb.inf in unpacked ADBDriver folder. 
+5) Please run commandline with Win+R and cmd, or from Windows start menu.
 
-6) Please run commandline with Win+R and cmd, or from Windows start menu.
-
-7) In commandline please do these commands, one by one:
+6) In commandline please do these commands, one by one:
 
 cd desktop/master
+
+java -jar UberSploits.jar
+
+***If your Windows has no java, please install it***
+
+***select your drone com-port and press Enter***
 
 adb shell busybox mount -o remount,rw /vendor
 
@@ -37,7 +41,7 @@ adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
 
 adb shell chmod 755 /vendor/bin/check_1860_state.sh
 
-8) Switch Mavic off
+7) Switch Mavic off
 
 ## How to check FCC mode
 
@@ -49,7 +53,7 @@ PayPal evgeniychuiko@gmail.com
 
 ## How to remove jkson mod
 
-You have to do 1-6 points, and after do these commands one by one:
+You have to do 1-5 points, and after do these commands one by one:
 
 cd desktop/master
 
