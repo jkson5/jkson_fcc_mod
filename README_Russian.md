@@ -37,7 +37,7 @@ adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
 
 adb shell chmod 755 /vendor/bin/check_1860_state.sh
 
-8) Выключить Mavic
+8) Выключить дрон
 
 ## Как проверить что коптер в режиме FCC
 
