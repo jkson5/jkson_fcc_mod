@@ -2,12 +2,12 @@
 
 [*** РУССКАЯ ВЕРСИЯ ***](https://github.com/jkson5/jkson_fcc_mod/blob/master/README_Russian.md)
 
-For forcing Mavic Pro SDR settings such as FCC,Boost,force_2.3G or force_2.5G, we can use internal commands.
+For forcing Mavic Pro or P4Pv2 SDR settings such as FCC,Boost,force_2.3G or force_2.5G, we can use internal commands.
 These commands will set radio parameters with any smartphone OS, any programms (e.g. Litchi), and even without smartphone at all. Because it will run on the drone locally. You have to apply this mod only for the drone. RC will sync.
 
 If you want to use force23 or force25, you always must switch RC first. Otherwise frequency will not shift.
 
-**This mod NOT compatible with Mavic 2! Only Mavic PRO/Platinum 1.04.0300 and lower confirmed.**
+**This mod NOT compatible with Mavic 2! Only Mavic PRO/Platinum (1.04.0300 and lower) and Phantom4Pv2(1.00.22.00) confirmed.**
 
 ## How to install
 
@@ -15,7 +15,7 @@ If you want to use force23 or force25, you always must switch RC first. Otherwis
 
 2) In folder "master" on your desktop, please take file with .sh extension with parameters you need (file name contains parameters), and rename it to check_1860_state.sh by removing extra characters.
 
-3) Connect your Mavic PRO with USB cable. Switch it on.
+3) Connect your Mavic PRO or P4Pv2 with USB cable. Switch it on.
 
 4) Download and run [DUMLDore](https://github.com/jezzab/DUMLdore/releases/download/v3.15/DUMLdoreV3.zip). Press "ADB ENABLE".
 
