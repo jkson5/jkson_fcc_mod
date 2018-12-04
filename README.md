@@ -9,35 +9,24 @@ If you want to use force23 or force25, you always must switch RC first. Otherwis
 
 **This mod NOT compatible with Mavic 2! Only Mavic PRO/Platinum (1.04.0300 and lower) and Phantom4Pv2(1.00.22.00) confirmed.**
 
-## How to install
+## How to install (Windows)
 
-1) [Please download this repo](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip) and unzip it to your desktop. Rename unzipped folder to "master", by removing extra characters.
+1) [Please download this repo](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip) and unzip it somewhere.
 
-2) In folder "master" on your desktop, please take file with .sh extension with parameters you need (file name contains parameters), and rename it to check_1860_state.sh by removing extra characters.
+2) Connect your Mavic PRO or P4Pv2 with USB cable. Switch it on.
 
-3) Connect your Mavic PRO or P4Pv2 with USB cable. Switch it on.
+3) Download and run [DUMLDore](https://github.com/jezzab/DUMLdore/releases/download/v3.15/DUMLdoreV3.zip). Press "ADB ENABLE".
 
-4) Download and run [DUMLDore](https://github.com/jezzab/DUMLdore/releases/download/v3.15/DUMLdoreV3.zip). Press "ADB ENABLE".
+4) Please check in Windows device manager, is there any unrecognized DJI devices. If yes, unpack ADBDriver.zip and try to force update driver for this device this way - Update driver software>Browse my computer>Let me pick from a list>show all>next>Have Disk>browse and select android_winusb.inf in unpacked ADBDriver folder. 
 
-5) Please check in Windows device manager, is there any unrecognized DJI devices. If yes, unpack ADBDriver.zip and try to force update driver for this device this way - Update driver software>Browse my computer>Let me pick from a list>show all>next>Have Disk>browse and select android_winusb.inf in unpacked ADBDriver folder. 
+5) In mod folder run install_mod.bat and follow instruction in commandline
 
-6) Please run commandline with Win+R and cmd, or from Windows start menu.
+## How to use
 
-7) In commandline please do these commands, one by one:
+Following installation procedure, you will able to choose different options, depends of aircraft model. Fixed FCC or Boost options will set persistant mode, and will take effect after reboot.
 
-cd desktop/master
-
-adb shell busybox mount -o remount,rw /vendor
-
-adb shell mkdir /vendor/bin
-
-adb shell chmod 755 /vendor/bin
-
-adb push check_1860_state.sh /vendor/bin/check_1860_state.sh
-
-adb shell chmod 755 /vendor/bin/check_1860_state.sh
-
-8) Switch the drone off
+For Mavic PRO/Platinum available "loop selector" mode. It means, you can select modes mid-flight, in loop. For switch to next mode you have to hold "pause" button and simultaneously press lefthand backside button (C1) once. The sequence is Default>FCC>Boost>SDR reset.
+"SDR reset" means SDR will restart with default mode. Please keep in mind, connection will be lost for few seconds (~3-4s), and the drone will start failsafe procedure, e.g. GoHome.
 
 ## How to check FCC mode
 
@@ -49,13 +38,7 @@ PayPal evgeniychuiko@gmail.com
 
 ## How to remove jkson mod
 
-You have to do 1-6 points, and after do these commands one by one:
-
-cd desktop/master
-
-adb shell busybox mount -o remount,rw /vendor
-
-adb shell rm /vendor/bin/check_1860_state.sh
+You have to repeat installation procedure. You will find "Delete mod" option in next step after device selection.
 
 ## DeejayeyeHackingClub information repos aka "The OG's" (Original Gangsters)
 
