@@ -25,8 +25,9 @@ If you want to use force23 or force25, you always must switch RC first. Otherwis
 
 Following installation procedure, you will able to choose different options, depends of aircraft model. Fixed FCC or Boost options will set persistant mode, and will take effect after reboot.
 
-For Mavic PRO/Platinum available "loop selector" mode. It means, you can select modes mid-flight, in loop. For switch to next mode you have to hold "pause" button and simultaneously press lefthand backside button (C1) once. The sequence is Default>FCC>Boost>SDR reset.
-"SDR reset" means SDR will restart with default mode. Please keep in mind, connection will be lost for few seconds (~3-4s), and the drone will start failsafe procedure, e.g. GoHome.
+*For Mavic PRO/Platinum available "loop selector" mode. It means, you can select modes mid-flight, in loop. For switch to next mode you have to hold "pause" button and simultaneously press lefthand backside button (C1) once. The system allows you to change the mode no faster than every 5 seconds.*
+
+The sequence is Default>FCC>Boost>SDR reset. "SDR reset" means SDR will restart with default mode. Please keep in mind, connection will be lost for few seconds (~3-4s), and the drone will start failsafe procedure, e.g. GoHome.
 
 ## How to check FCC mode
 
