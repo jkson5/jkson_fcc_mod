@@ -35,9 +35,9 @@ The sequence is Default>FCC>Boost>SDR reset. "SDR reset" means SDR will restart 
 
 You should start DJI GO, go to HD settings, and look to frequency graph. If line ~1km is a bit under 90dBm, you are in CE mode. If line is higher than 90dBm, you are in FCC mode. Boost mode(1.5W) you can proof only with special radio analyzer, or with the test flight. Please ensure you have enough battery for back flight.
 
-## How to say thanks
+## How to contact me for thanks or questions
 
-PayPal evgeniychuiko@gmail.com
+Telegram messenger @jkson5
 
 ## How to remove jkson mod
 
@@ -45,7 +45,7 @@ You have to repeat installation procedure. You will find "Delete mod" option in 
 
 ## DeejayeyeHackingClub information repos aka "The OG's" (Original Gangsters)
 
-Special thanks to @jcase, @jan2642, @mefisto
+Special thanks to @jcase, @jan2642, @mefisto, @jezzab
 
 [http://dji.retroroms.info](http://dji.retroroms.info) - "Wiki"
 
