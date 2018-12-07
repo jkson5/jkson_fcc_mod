@@ -13,7 +13,7 @@
 
 ## Как установить мод (Windows)
 
-1) [Скачать данный репозиторий](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip) и распаковать на рабочем столе. Переименовать папку в master, удалив все лишнее.
+1) [Скачать данный репозиторий](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip) и распаковать.
 
 2) Подключить Mavic PRO или P4Pv2 к компьютеру USB кабелем. Включить его.
 
