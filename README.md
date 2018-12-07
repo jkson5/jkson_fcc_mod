@@ -9,6 +9,8 @@ If you want to use force23 or force25, you always must switch RC first. Otherwis
 
 **This mod NOT compatible with Mavic 2! Only Mavic PRO/Platinum (1.04.0300 and lower) and Phantom4Pv2(1.00.22.00) confirmed.**
 
+For Mavic-2 and Mavic Pro/Platinum (1.04.0400 and higher), you need jkson_advanced_mod (beta). My telegram messenger @jkson5
+
 ## How to install (Windows)
 
 1) [Please download this repo](https://github.com/jkson5/jkson_fcc_mod/archive/master.zip) and unzip it somewhere.
