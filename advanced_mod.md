@@ -1,6 +1,6 @@
 Advanced FCC and boost mod by jkson is a next step with many advantages. As the first mod, it will work with any applications on your smartphone, and without smartphone too.
 
-**Advanced mod compatible with Mavic Platinum/Pro (any firmwares including the latest) and Mavic 2 Pro/Zoom**
+**Advanced mod compatible with Mavic Platinum/Pro (any firmwares including the latest) and Mavic 2 Pro/Zoom (not available yet)**
 
 The advantages are:
 
