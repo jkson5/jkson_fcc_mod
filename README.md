@@ -7,9 +7,7 @@ These commands will set radio parameters with any smartphone OS, any programms (
 
 If you want to use force23 or force25, you always must switch RC first. Otherwise frequency will not shift.
 
-This mod only for Mavic PRO/Platinum (1.04.0300 and lower) and Phantom4Pv2 (1.00.22.00 and lower)
-
-**Mavic Pro/Platinum (1.04.0400 and higher), you need [jkson_advanced_mod](http://github.com/jkson5/jkson_fcc_mod/blob/master/advanced_mod.md)**.
+**This mod only for Mavic PRO/Platinum (1.04.0300 and lower) and Phantom4Pv2 (1.00.22.00 and lower)**
 
 ## How to install (Windows)
 
