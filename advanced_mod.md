@@ -10,4 +10,4 @@ The advantages are:
 
 - Checking functionality. Just press pause button once, and remote controller will give you vibro and flashing feedback for the state at the moment
 
-Please follow "How to contact me" in [main page](http://github.com/jkson5/jkson_fcc_mod for advanced_mod
+Please follow "How to contact me" in [main page](http://github.com/jkson5/jkson_fcc_mod) for advanced_mod
