@@ -1,15 +1,15 @@
 # jkson_fcc_mod
 
-[*** РУССКАЯ ВЕРСИЯ ***](https://github.com/jkson5/jkson_fcc_mod/blob/master/README_Russian.md)
+[*** РУССКАЯ ВЕРСИЯ ***](http://github.com/jkson5/jkson_fcc_mod/blob/master/README_Russian.md)
 
-For forcing Mavic Pro or P4Pv2 SDR settings such as FCC,Boost,force_2.3G or force_2.5G, we can use internal commands.
+For forcing Mavic Pro or P4Pv2 SDR settings such as FCC, Boost, force_2.3G or force_2.5G, we can use internal commands.
 These commands will set radio parameters with any smartphone OS, any programms (e.g. Litchi), and even without smartphone at all. Because it will run on the drone locally. You have to apply this mod only for the drone. RC will sync.
 
 If you want to use force23 or force25, you always must switch RC first. Otherwise frequency will not shift.
 
-**This mod NOT compatible with Mavic 2! Only Mavic PRO/Platinum (1.04.0300 and lower) and Phantom4Pv2(1.00.22.00) confirmed.**
+This mod only for Mavic PRO/Platinum (1.04.0300 and lower) and Phantom4Pv2 (1.00.22.00 and lower)
 
-For Mavic-2 and Mavic Pro/Platinum (1.04.0400 and higher), you need **jkson_advanced_mod** (beta). My telegram messenger **@jkson5**
+**For Mavic-2 and Mavic Pro/Platinum (1.04.0400 and higher), you need [jkson_advanced_mod](http://github.com/jkson5/jkson_fcc_mod/blob/master/advanced_mod.md)**. It will not be published, please contact me if you need it. 
 
 ## How to install (Windows)
 
@@ -33,11 +33,12 @@ The sequence is Default>FCC>Boost>SDR reset. "SDR reset" means SDR will restart 
 
 ## How to check FCC mode
 
-You should start DJI GO, go to HD settings, and look to frequency graph. If line ~1km is a bit under 90dBm, you are in CE mode. If line is higher than 90dBm, you are in FCC mode. Boost mode(1.5W) you can proof only with special radio analyzer, or with the test flight. Please ensure you have enough battery for back flight.
+You should start DJI GO, go to HD settings, and look to frequency graph. If line ~1km is a bit under 90dBm, you are in CE mode. If line is higher than 90dBm, you are in FCC mode. Boost mode(1.5W) you can proof only with [radio powermeter](https://youtu.be/FS0O841k_SU), or with the test flight. Please ensure you have enough battery for back flight.
 
-## How to contact me for thanks or questions
+## How to say thanks or contact me
 
-Telegram messenger @jkson5
+PayPal and email - evgeniychuiko@gmail.com
+Telegram messenger @jkson5, or email me, but please start with "thank you" to PayPal. I have spent few months for it, and will spend more with your support. Thank you in advance!
 
 ## How to remove jkson mod
 
