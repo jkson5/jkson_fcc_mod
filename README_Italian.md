@@ -35,7 +35,7 @@ Dovresti avviare DJI GO, andare alle impostazioni HD e guardare al grafico di fr
 
 ## Per ringraziare o per contattarmi
 
-PayPal ed email - evgeniychuiko@gmail.com Telegram messenger @ jkson5, o mandami una email, ma per favore inizia con "grazie" a PayPal. Ho trascorso alcuni mesi per realizzare questa mod e ne dedicherò di più con il tuo supporto. Grazie in anticipo!
+PayPal ed email - evgeniychuiko@gmail.com Telegram messenger @jkson5, o mandami una email, ma per favore inizia con "grazie" a PayPal. Ho trascorso alcuni mesi per realizzare questa mod e ne dedicherò di più con il tuo supporto. Grazie in anticipo!
 
 ## Come rimuovere jkson mod
 
