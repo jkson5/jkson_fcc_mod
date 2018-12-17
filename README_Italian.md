@@ -31,7 +31,7 @@ La sequenza è CE> FCC> Boost> Ripristino SDR. "Ripristino SDR" significa che l'
 
 ## Come verificare la modalità FCC
 
-Dovresti avviare DJI GO, andare alle impostazioni HD e guardare al grafico di frequenza. Se la linea ~ 1km è un po 'sotto i 90dBm, sei in modalità CE. Se la linea è superiore a 90 dBm, si è in modalità FCC. Modalità boost (1.5W) è possibile eseguire la prova solo con il powermeter radio tipo questo https://www.banggood.com/custlink/mGDmDz1HnV o con il volo di prova. Assicurati di avere una batteria sufficiente per il volo di ritorno.
+Dovresti avviare DJI GO, andare alle impostazioni HD e guardare al grafico di frequenza. Se la linea ~ 1km è un po 'sotto i 90dBm, sei in modalità CE. Se la linea è superiore a 90 dBm, si è in modalità FCC. Modalità boost (1.5W) è possibile eseguire la prova solo con il powermeter radio tipo questo o con il volo di prova. Assicurati di avere una batteria sufficiente per il volo di ritorno.
 
 ## Per ringraziare o per contattarmi
 
