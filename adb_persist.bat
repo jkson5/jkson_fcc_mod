@@ -19,6 +19,7 @@ If Errorlevel 1 Goto MP
 echo #!/system/bin/sh > check_1860_state.sh
 echo /system/bin/check_1860_state.sh^& >> check_1860_state.sh
 echo /system/bin/adb_en.sh NonSecurePrivilege >> check_1860_state.sh
+echo busybox ping -c 1 -w 1800 192.168.41.2 >> check_1860_state.sh
 echo(
 echo 1 - Auto frequency (Default)
 echo 2 - Force frequency to 2.3G (not compatible with DJI Goggles)
@@ -27,7 +28,6 @@ echo 4 - DELETE this mod from DJI device
 echo(
 choice /C 1234 /D 1 /T 99 /M "Please select frequency"
 If Errorlevel 4 Goto AdbRemove
-If Errorlevel 2 echo sleep 5 >> check_1860_state.sh
 echo while : >> check_1860_state.sh
 echo do >> check_1860_state.sh
 If Errorlevel 3 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00014600FFFF92040000 >> check_1860_state.sh
@@ -66,6 +66,8 @@ Goto AdbSet
 :P4PV2
 echo #!/system/bin/sh > check_1860_state.sh
 echo /system/bin/check_1860_state.sh^& >> check_1860_state.sh
+echo /system/bin/adb_en.sh NonSecurePrivilege >> check_1860_state.sh
+echo busybox ping -c 1 -w 1800 192.168.41.2 >> check_1860_state.sh
 echo(
 echo 1 - Auto frequency (Default)
 echo 2 - Force frequency to 2.3G
