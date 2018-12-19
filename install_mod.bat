@@ -40,10 +40,12 @@ echo 3 - Fixed FCC
 echo 4 - Fixed FCC and Boost
 echo(
 choice /C 1234 /D 1 /T 99 /M "Please select mod"
+If Errorlevel 4 echo busybox ping -c 1 -w 1800 192.168.41.2
 If Errorlevel 4 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00024800FFFF0200000000 >> check_1860_state.sh
 If Errorlevel 4 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 3c >> check_1860_state.sh
 If Errorlevel 4 echo break >> check_1860_state.sh
 If Errorlevel 4 Goto EndMod
+If Errorlevel 3 echo busybox ping -c 1 -w 1800 192.168.41.2
 If Errorlevel 3 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00024800FFFF0200000000 >> check_1860_state.sh
 If Errorlevel 3 echo break >> check_1860_state.sh
 If Errorlevel 3 Goto EndMod
