@@ -19,6 +19,7 @@ If Errorlevel 1 Goto MP
 echo #!/system/bin/sh > check_1860_state.sh
 echo /system/bin/check_1860_state.sh^& >> check_1860_state.sh
 echo busybox ping -c 1 -w 1800 192.168.41.2 >> check_1860_state.sh
+echo sleep 5 >> check_1860_state.sh
 echo(
 echo 1 - Auto frequency (Default)
 echo 2 - Force frequency to 2.3G (not compatible with DJI Goggles)
@@ -66,6 +67,7 @@ Goto AdbSet
 echo #!/system/bin/sh > check_1860_state.sh
 echo /system/bin/check_1860_state.sh^& >> check_1860_state.sh
 echo busybox ping -c 1 -w 1800 192.168.41.2 >> check_1860_state.sh
+echo sleep 5 >> check_1860_state.sh
 echo(
 echo 1 - Auto frequency (Default)
 echo 2 - Force frequency to 2.3G
