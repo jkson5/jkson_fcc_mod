@@ -39,8 +39,16 @@ echo 1 - Default power
 echo 2 - Default^>FCC^>Boost^>Reset loop selector by Remote controller
 echo 3 - Fixed FCC
 echo 4 - Fixed FCC and Boost
+echo 5 - Fixed FCC and Boost with True FPV gimbal
 echo(
-choice /C 1234 /D 1 /T 99 /M "Please select mod"
+choice /C 12345 /D 1 /T 99 /M "Please select mod"
+If Errorlevel 5 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00024800FFFF0200000000 >> check_1860_state.sh
+If Errorlevel 5 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 3c >> check_1860_state.sh
+If Errorlevel 5 echo dji_mb_ctrl -R diag -g 1 -s 2 -c 7c 0100 >> check_1860_state.sh
+If Errorlevel 5 echo sleep 1 >> check_1860_state.sh
+If Errorlevel 5 echo dji_mb_ctrl -R diag -g 1 -s 2 -c 7c 0000 >> check_1860_state.sh
+If Errorlevel 5 echo sleep 5 >> check_1860_state.sh
+If Errorlevel 5 Goto EndMod
 If Errorlevel 4 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00024800FFFF0200000000 >> check_1860_state.sh
 If Errorlevel 4 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 3c >> check_1860_state.sh
 If Errorlevel 4 echo break >> check_1860_state.sh
