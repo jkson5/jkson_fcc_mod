@@ -46,7 +46,7 @@ If Errorlevel 5 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 27 00024800FFFF02
 If Errorlevel 5 echo dji_mb_ctrl -S test -R local -g 9 -s 9 -c 3c >> check_1860_state.sh
 If Errorlevel 5 echo sleep 10 >> check_1860_state.sh
 If Errorlevel 5 echo ^} >> check_1860_state.sh
-If Errorlevel 5 echo sdr_loop& >> check_1860_state.sh
+If Errorlevel 5 echo sdr_loop^& >> check_1860_state.sh
 If Errorlevel 5 echo logcat ^| grep -FEm 1 ', 0, 0, 1, 1, 0, 0, ., ., 0, 0, ., 0, 0, 0, ..' >> check_1860_state.sh
 If Errorlevel 5 echo while :  >> check_1860_state.sh
 If Errorlevel 5 echo do  >> check_1860_state.sh
